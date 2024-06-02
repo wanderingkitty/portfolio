@@ -1,0 +1,26 @@
+.description {
+	display: flex;
+	flex-direction: column;
+}
+
+.selfie  {
+	width: 500px;
+	position: relative;
+	left: 10em;
+}
+
+.about-me-section {
+	margin-top: 4em;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+}
+
+h2 {
+	text-align: center;
+}
+
+.about-me {
+	padding-right: 10em;
+	font-size: 1.5em;
+}
